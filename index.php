@@ -1,2 +1,2 @@
 <?php
-echo "hello world 2";
+echo "Hello ".(isset($_GET['name']) ? $_GET['name'] : "World");
